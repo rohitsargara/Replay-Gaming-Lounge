@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-ivory: #FAF7F2;
+  --color-sand-base: #F4EFE6;
+  --color-sand-border: #E5DDCF;
+  --color-terracotta: #B95333;
+  --color-terracotta-dark: #933E25;
+  --color-olive: #4E5942;
+  --color-olive-dark: #373F2E;
+  --color-ink: #221F1C;
+  --color-ink-muted: #6E675D;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  background-color: #FAF7F2;
+  color: #221F1C;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-editorial {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+/* Subtle organic grain texture */
+.bg-grain {
+  background-image: radial-gradient(rgba(34, 31, 28, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
